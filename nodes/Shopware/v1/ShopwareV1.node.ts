@@ -15,6 +15,12 @@ export class ShopwareV1 implements INodeType {
 	constructor(baseDescription: INodeTypeBaseDescription) {
 		this.description = {
 			...baseDescription,
+			credentials: [
+				{
+					name: 'shopwareOAuth2Api',
+					required: true,
+				},
+			],
 			...versionDescription,
 			usableAsTool: true,
 		};
