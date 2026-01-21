@@ -81,3 +81,4 @@ For general n8n usage, see the [Try it out guide](https://docs.n8n.io/try-it-out
 | **1.4.1**       | Removed deprecated transport method, options and types.                  |
 | **1.4.2**       | Fixed missing credentials in package definition and resolved icon paths. |
 | **1.4.3**       | Added credentials explicitly to the base versioned node.                 |
+| **1.4.4**       | Added line-items, currency, deliveries and transactions data to order. Changed node icon format to SVG.|
