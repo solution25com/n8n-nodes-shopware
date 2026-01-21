@@ -117,6 +117,7 @@ If you encounter issues such as authentication errors, missing resources, or API
 | **1.4.2**       | Fixed missing credentials in package definition and resolved icon paths. |
 | **1.4.3**       | Added credentials explicitly to the base versioned node.                 |
 | **1.4.4**       | Added line-items, currency, deliveries and transactions data to order. Changed node icon format to SVG.|
+| **1.4.5**       | Removed debug statements from code.                                        |
 
 ## Documentation Index
 
