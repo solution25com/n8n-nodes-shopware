@@ -115,6 +115,8 @@ If you encounter issues such as authentication errors, missing resources, or API
 | **1.4.0**       | Added full support for categories resource.                              |
 | **1.4.1**       | Removed deprecated transport method, options and types.                  |
 | **1.4.2**       | Fixed missing credentials in package definition and resolved icon paths. |
+| **1.4.3**       | Added credentials explicitly to the base versioned node.                 |
+| **1.4.4**       | Added line-items, currency, deliveries and transactions data to order. Changed node icon format to SVG.|
 
 ## Documentation Index
 
