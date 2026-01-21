@@ -230,7 +230,6 @@ export async function execute(
 				);
 
 				const response = await apiRequest.call(this, 'POST', `/search/order`, body);
-                console.log('Response from order get many: ', response);
 
 				const executionData = this.helpers.constructExecutionMetaData(wrapData(response.data), {
 					itemData: { item: i },

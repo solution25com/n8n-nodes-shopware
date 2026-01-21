@@ -63,6 +63,7 @@ describe('Test Shopwarev1, getMany operation', () => {
 						stateMachineState: {},
 					},
 				},
+                lineItems: {},
 			},
 		});
 		expect(result).toHaveLength(1);
