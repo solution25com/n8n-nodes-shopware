@@ -74,6 +74,12 @@ export async function execute(
 					order: fields,
 				},
 				filter: [{ type: 'equals', field: 'id', value: id }],
+                associations: {
+                    currency: {},
+                    deliveries: {},
+                    transactions: {},
+                    lineItems: {}
+                },
 			};
 
 			const response = await apiRequest.call(this, 'POST', `/search/order`, body);

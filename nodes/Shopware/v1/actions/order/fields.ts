@@ -17,6 +17,10 @@ export const orderFields = [
 	'customerComment',
 	'affiliateCode',
 	'campaignCode',
+    'currency',
+    'deliveries',
+    'transactions',
+    'lineItems',
 ];
 
 export const salutationOptionFields = ['id', 'displayName'];
